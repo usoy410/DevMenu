@@ -493,10 +493,6 @@ tail -f verdaccio.log
 3. Update this README
 4. Test thoroughly
 
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
 ## 🙏 Acknowledgments
 
 - **Verdaccio** - Local NPM registry
