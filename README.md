@@ -451,15 +451,17 @@ tail -f verdaccio.log
 ## 📁 File Structure
 
 ```
+├── devmenu.sh              # Main menu launcher
+|── setup-fast-projects.sh  # One-time setup
 ├── 🚀 Core Scripts
-│   ├── devmenu.sh              # Main menu launcher
+│
 │   ├── create_project.sh       # Individual project creation
 │   ├── create_fullstack.sh     # Fullstack project creation
 │   ├── open_project.sh         # Open existing projects
 │   ├── delete_project.sh       # Safe project deletion
 │   ├── github_create.sh        # GitHub repository creation
 │   ├── helpers.sh              # Shared functions
-│   └── setup-fast-projects.sh  # One-time setup
+│
 │
 ├── 🌐 Registry
 │   ├── verdaccio.yaml          # Registry configuration
